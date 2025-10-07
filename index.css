@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.outermost {
+    margin-top: 40px;
+    border: 2px solid black;
+    height: 455px;
+    width: 270px;
+    border-radius: 10px;
+    background-color: silver;
+    box-shadow: 3px 3px 20px black;
+
+}
+
+.outermost:hover {
+    box-shadow: 2px 2px 10px black;
+}
+
+.displaybar {
+    height: 135px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 220px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    font-size: xx-large;
+    opacity: 0.7;
+    box-shadow: 1px 1px 5px black;
+}
+
+.allButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.btn {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(255, 234, 182);
+    font-size: larger;
+    box-shadow: 1px 1px 5px black;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 10px black;
+}
+.btn:active{
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.536);
+}
+
+.btn:active {
+    height: 48px;
+    width: 48px;
+}
+
+.ac{
+    background-color: red;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 30%;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+
+
+
+/* @keyframes fontanimation{
+    from{
+        font-size:20px
+    }
+    to{
+        font-size:40px
+    }
+} */
+
+
+
+
